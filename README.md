@@ -1,34 +1,13 @@
 # Portfolio Optimization with Deep Bayesian Bandits
 
-## Problem statement
 
 ```
-A task where a fixed amount of resources must be allocated between competing resources 
-that maximizes expected gain. 
-Typically these problems involve an exploration/exploitation trade-off.
-As exploration risks loss of money.
-
-Multi-Armed bandits would be the ideal solution.
+AI Portfolio Manager - optimizing distribution of asset allocation
+by means of reinforcement learning.
 ```
 
 #### Implementation of Linear Full Posterior Bandits for portfolio optimization
 
-## What does this do
-- Walk forward Optimization to be done every few months to give :
-
-    - x Training length
-    - y Testing length
-    - z Live trading length
-    
-- Training of model using walk forward opt results.
-- Prediction of next best portfolio holdings ratios using
-
-    - X training length for scope of data to train for.
-    - y testing length for validation of training results
-    - z Actual length in market where results of optimization
-    are good for before having to optimize again.
-
-< Insert Sample optimization output here>
 
 
 This  corresponds to the *[Deep Bayesian Bandits Showdown: An Empirical
